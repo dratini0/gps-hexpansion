@@ -1,0 +1,74 @@
+(footprint "card_edge_CR2032"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "347121fe-9db2-43d8-86b3-3bc340cc33f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "card_edge_CR2032"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d2633d27-b5ce-4849-bec1-9ce2e62bb20d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5da8523f-87c6-4b88-ba4f-3d220c094fa9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "683ea19b-8a5d-4a57-b143-fd1680c91035")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd rect
+		(at -5 -1.8)
+		(size 1.5 3.6)
+		(layers "F.Cu" "F.Mask")
+		(uuid "e937f32e-28bc-40a3-bc52-2ed83f7bf03a")
+	)
+	(pad "1" smd rect
+		(at 5 -1.8)
+		(size 1.5 3.6)
+		(layers "F.Cu" "F.Mask")
+		(uuid "979d2690-74c4-4f2a-a5b1-208d33ae3a33")
+	)
+	(pad "2" smd rect
+		(at 0 -2.5)
+		(size 1.5 5)
+		(layers "B.Cu" "B.Mask")
+		(uuid "e60a703a-f9f8-4f7c-aea6-182e98c31073")
+	)
+	(embedded_fonts no)
+)
